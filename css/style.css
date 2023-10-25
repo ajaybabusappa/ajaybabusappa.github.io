@@ -477,7 +477,7 @@ header .navbar ul li a:hover{
 
 .section-preview .active{
     display: inline-block;
-    animation: top 0.8s; 
+    animation: scaler2 0.8s; 
 }
 
 .section-preview .preview h1{
@@ -525,7 +525,8 @@ li::marker{
     header{
         animation: slidein 1s;
     }
-} 
+}
+
 @media (max-width: 1200px){
     html{
         font-size: 55%;
@@ -533,9 +534,9 @@ li::marker{
     .home{
         padding: 5rem 6rem;
     }
-    header{
+    /* header{
         animation: slidein 3s;
-    }
+    } */
 }
 
 @media (max-width: 991px){
@@ -589,7 +590,8 @@ li::marker{
 }
 
 
-@keyframes top{
+
+@keyframes scaler2 {
     from{
         scale: 0.1;
     }
